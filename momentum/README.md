@@ -1,7 +1,7 @@
 # Vanilla JS Challenge - Chrome App
 
 ## Link
-https://sejineeee.github.io/index.html
+https://sejineeee.github.io/momentum
 
 ## Screenshots
 
