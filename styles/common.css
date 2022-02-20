@@ -1,0 +1,13 @@
+.hidden {
+  display: none;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: 400;
+}
+
+body, input, button {
+  font-family: 'Jua', sans-serif;
+}

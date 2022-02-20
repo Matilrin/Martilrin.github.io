@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+}
+
+.header .clock {
+  font-size: 60px;
+}
+
+.header #greeting {
+  font-size: 50px;
+  font-family: 'Black Han Sans', sans-serif;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/header.css" />
+  <link rel="stylesheet" href="./styles/main.css" />
+  <link rel="stylesheet" href="./styles/footer.css" />
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/common.css" />
+  <script defer src='./greeting.js'></script>
+  <script defer src='./clock.js'></script>
+  <script defer src='./quote.js'></script>
+  <script defer src='./background.js'></script>
+  <script defer src='./todo.js'></script>
+  <script defer src='./weather.js'></script>
+  <script defer src='./todo-app-click.js'></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap" rel="stylesheet" />
+  <title>Vanilla Challenge</title>
+</head>
+<body>
+  <header class='header'>
+    <h1 class='hidden' id='greeting'></h1>
+    <div class="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <h2 class='clock'></h2>
+  </header>
+  <main>
+    <div class='login-container'>
+      <img class='heart' src="./assets/img/heart-emoji.png" alt="로그인아이콘" />
+      <form id='login-form'>
+        <input class='login-input' required type="text" placeholder='What is your name?' maxlength='15' />
+        <input class='login-button' type="submit" value='Log In' />
+      </form>
+    </div>
+    <div class='todo-container'>
+      <form id='todo-form'>
+        <input required type="text" placeholder='Write a To Do and Press Enter' />
+      </form>
+      <ul id='todo-list'></ul>
+    </div>
+    <button class='todo-app-button'>
+      <img src='./assets/img/todo-app.png'>TODO
+    </button>
+  </main>
+  <footer class='footer'>
+    <div class='quote'>
+      <p></p>
+      <p></p>
+    </div>
+  </footer>
+</body>
+</html> 
