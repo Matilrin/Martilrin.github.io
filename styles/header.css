@@ -5,7 +5,14 @@
   padding: 32px;
 }
 
+.header .today-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .header .clock {
+  margin-top: 8px;
   font-size: 60px;
 }
 

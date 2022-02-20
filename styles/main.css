@@ -1,6 +1,6 @@
 main {
   position: relative;
-  height: calc(100vh - 228px);
+  height: calc(100vh - 252px);
 }
 
 .login-container {
@@ -43,7 +43,7 @@ main {
 
 .todo-container {
   position: relative;
-  visibility: hidden;
+  display: none;
   background-image: url('../assets/img/todo-popup.png');
   width: 50%;
   height: 100%;
@@ -93,11 +93,24 @@ main {
   flex-direction: column;
   align-items: center;
   border: none;
-  font-family: inherit;
+  font-family: 'Black Han Sans', sans-serif;;
   font-size: 24px;
   background: none;
   cursor: pointer;
+  color: #1B64B2;
 }
+
 .todo-app-button img {
   width: 120px;
+}
+
+.todo-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8%;
+  height: 8%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
