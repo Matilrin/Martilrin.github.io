@@ -10,6 +10,5 @@ function handleCloseButtonClick() {
   toDoContainer.style.display = 'none';
 }
 
-
 toDoAppButton.addEventListener('dblclick', handleButtonClick);
 toDoAppCloseButton.addEventListener('click', handleCloseButtonClick);

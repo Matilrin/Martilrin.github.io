@@ -8,7 +8,7 @@ const HIDDEN_CLASSNAME = 'hidden';
 
 function handleSubmit (event) {
   event.preventDefault();
-  loginContainer.classList.add(HIDDEN_CLASSNAME);
+  loginContainer.style.display = 'none';
   const username = loginInput.value;
   localStorage.setItem(USERNAME_KEY, username);
   paintGreeting(username);
@@ -22,9 +22,9 @@ function paintGreeting(username) {
 const savedUsername = localStorage.getItem(USERNAME_KEY);
 
 if (savedUsername === null) {
-  loginContainer.classList.remove(HIDDEN_CLASSNAME);
+  loginContainer.style.display = 'flex';
   loginForm.addEventListener('submit', handleSubmit);
 } else {
   paintGreeting(savedUsername);
-  loginContainer.classList.add(HIDDEN_CLASSNAME);
+  loginContainer.style.display = 'none';
 }
