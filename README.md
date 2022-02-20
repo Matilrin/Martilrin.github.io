@@ -1,17 +1,3 @@
-# Vanilla JS Challenge - Chrome App
+# Projects
 
-## Link
-https://sejineeee.github.io/index.html
-
-## Screenshots
-
-### Unauthorized user
-
-
-### authorized user
-
-
-### todo list
-
-
-### demo
+## momentum
